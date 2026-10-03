@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PeakFit</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="header-left">
+          <img src="Peakfit Logo.jpeg" alt="logo" id="logo" />
+          <h1>PEAKFIT</h1>
+        </div>
+
+        <div class="header-right">
+          <button onclick="" class="member">Active Member</button>
+          <p>Expires on 31st December 2026</p>
+        </div>
+      </div>
+
+      <div class="tagline">
+        <img src="default.jpeg" alt="photo" id="photo" />
+        <div class="tagline-text">
+          <h1>No days off, Stranger. Make it count. 🔥</h1>
+          <p>
+            Push your limits, trust the process, and crush your goals today.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2>Meet Your Trainers</h2>
+      <div class="trainers">
+        <div class="trainer">
+          <img src="Trainer.jpeg" alt="trainer" />
+          <div class="trainer-info">
+            <h3>Coach Marco Whitebeard</h3>
+            <p>"They call me the devil trainer."</p>
+            <button onclick="bookTrainer('Trainer')">Book Me!</button>
+          </div>
+        </div>
+
+        <div class="trainer">
+          <img src="Trainer 1.jpeg" alt="trainer1" />
+          <div class="trainer-info">
+            <h3>Coach Sanji Mugiwara</h3>
+            <p>"You'll be able to fight a bull in no time!"</p>
+            <button onclick="bookTrainer1('Trainer1')">Book Me!</button>
+          </div>
+        </div>
+      </div>
+
+      <h2>Top Pick Classes</h2>
+      <div class="classes">
+        <div class="class">
+          <img src="Cardio.jpeg" alt="Cardio" />
+          <div class="class-info">
+            <h3>Cardio Beat</h3>
+            <p>Every Monday, Wednesday and Friday</p>
+            <p>6pm - 8pm</p>
+            <p>Train with Terry Crews</p>
+            <button onclick="bookClasses('classes')">Join Now!</button>
+          </div>
+        </div>
+
+        <div class="class">
+          <img src="Pilates.jpeg" alt="Pilates" />
+          <div class="class-info">
+            <h3>Power Break Pilates</h3>
+            <p>Every Tuesday and Saturday</p>
+            <p>7pm - 9pm</p>
+            <p>Loosen up with Buggy</p>
+            <button onclick="bookClasses('Classes')">Join Now!</button>
+          </div>
+        </div>
+
+        <div class="class">
+          <img src="Yoga.jpeg" alt="Yoga" />
+          <div class="class-info">
+            <h3>Yoga Pulls</h3>
+            <p>Every Thursday and Sunday</p>
+            <p>4pm - 6pm</p>
+            <p>Stretch your body with Luffy</p>
+            <button onclick="bookClasses('Classes')">Join Now!</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
