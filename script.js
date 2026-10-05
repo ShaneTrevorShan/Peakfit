@@ -14,4 +14,4 @@ function getUserName() {
   }
 }
 
-window.addEventListener('DOMContentLoaded', getUserName);
+getUserName();
